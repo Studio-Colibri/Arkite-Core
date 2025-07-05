@@ -1,0 +1,15 @@
+name: Arkite-Core
+main: kr.arkite.core.ArkiteCore
+version: 1.0.0
+author: ColibriStudio
+api-version: 1.21
+description: "Arkite Plugin Project의 Core 시스템 플러그인. 모든 시스템의 진입점 역할."
+website: "https://github.com/ColibriStudio/Arkite-Core"
+load: STARTUP
+
+commands:
+  core:
+    description: "Arkite-Core 플러그인 기본 명령어"
+    usage: "/core"
+    permission: arkite.core.command
+    permission-message: "이 명령을 사용할 권한이 없습니다."
